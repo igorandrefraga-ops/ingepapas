@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Las Inge Papas: alitas, hamburguesas y papas.">
+  <title>Las Inge Papas | Alitas y hamburguesas</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border-bottom border-warning border-3">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold fs-4" href="#inicio">
+        <img src="img/LOGO ING. PAPAS.jpg" height="50" class="rounded-3" alt="Logo de Las Inge Papas">
+        <span>Las Inge <span class="text-warning">Papas</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menú</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-warning fw-bold rounded-pill mt-2 mt-lg-0" href="#contacto">Haz tu pedido</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Portada -->
+  <header class="bg-warning text-dark py-5" id="inicio">
+    <div class="container py-lg-4">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <h1 class="display-3 fw-bold mb-3">Alitas y hamburguesas hechas al momento</h1>
+          <p class="fs-5 mb-4">En Las Inge Papas preparamos tu pedido con salsas a elección, papas calientes y hamburguesas bien cargadas.</p>
+          <a class="btn btn-dark btn-lg rounded-pill px-4" href="#menu">Ver el menú</a>
+        </div>
+        <div class="col-lg-5">
+          <div class="row justify-content-center">
+            <div class="col-8 col-lg-10">
+            <img src="img/LOGO ING. PAPAS.jpg" class="img-fluid rounded-4" alt="Logo de Las Inge Papas">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Nosotros -->
+    <section class="py-5" id="nosotros">
+      <div class="container py-lg-4">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <img src="img/_MG_4991.jpg" class="img-fluid rounded-4" alt="hamburguesa pinia">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="display-6 fw-bold mb-3">Quiénes somos</h2>
+            <p>Las Inge Papas es un negocio de comida rápida que vende alitas, hamburguesas y papas. Cocinamos cada pedido cuando lo recibimos, para que llegue caliente a tu mesa o a tu casa.</p>
+            <p>Si no sabes qué pedir, cuéntanos si te gusta más picante o más suave y te recomendamos una salsa.</p>
+            <ul class="list-group list-group-flush mt-4">
+              <li class="list-group-item border-warning border-start border-4 ps-3">Alitas con varias salsas para elegir.</li>
+              <li class="list-group-item border-warning border-start border-4 ps-3">Hamburguesas clásicas y una especial de la casa.</li>
+              <li class="list-group-item border-warning border-start border-4 ps-3">Combos con papas y bebida para compartir.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menú -->
+    <section class="py-5 bg-warning-subtle" id="menu">
+      <div class="container py-lg-4">
+        <div class="text-center mb-5">
+          <h2 class="display-6 fw-bold">Nuestro menú</h2>
+          <p class="text-secondary mb-0">Lo que más piden nuestros clientes.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+              <!-- IMAGEN: alitas -->
+              <img src="img/_MG_4871.jpg" alt="alitas">
+              <div class="card-body p-4">
+                <h3 class="h4 fw-bold">Alitas con salsa</h3>
+                <p class="text-secondary">Porciones de 6 y 12 unidades, con la salsa que prefieras.</p>
+                <p class="fs-5 fw-bold text-warning-emphasis mb-0">Desde $4,00</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+              <!-- IMAGEN: hamburguesas -->
+              <img src="img/_MG_4934.jpg" alt="hamburguesa italiana">
+              <div class="card-body p-4">
+                <h3 class="h4 fw-bold">Hamburguesas</h3>
+                <p class="text-secondary">Carne, vegetales frescos y nuestras salsas en pan recién calentado.</p>
+                <p class="fs-5 fw-bold text-warning-emphasis mb-0">Desde $2,75</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+              <!-- IMAGEN: papas y combos -->
+              <img src="img/_MG_4889.jpg" alt="megainge">
+              <div class="card-body p-4">
+                <h3 class="h4 fw-bold">Papas</h3>
+                <p class="text-secondary">Papas fritas solas o en combo con pollo.</p>
+                <p class="fs-5 fw-bold text-warning-emphasis mb-0">Papas desde $4,00</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="mt-5">
+          <h3 class="h4 fw-bold mb-3">Lista de precios</h3>
+          <div class="table-responsive shadow-sm rounded-3">
+            <table class="table table-striped table-bordered align-middle mb-0">
+              <thead class="table-dark">
+                <tr><th scope="col">Producto</th><th scope="col">Descripción</th><th scope="col">Precio</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Hamburguesa clásica</td><td>Carne, vegetales, queso cheddar y salsas</td><td>$2,75</td></tr>
+                <tr><td>Ingeburguer</td><td>Carne, vegetales, queso cheddar, tocino, huevo y salsas</td><td>$4,00</td></tr>
+                <tr><td>Alitas (4 unidades)</td><td>alitas, papas, ensalada, salsa a elección</td><td>$4,00</td></tr>
+                <tr><td>Alitas (6 unidades)</td><td>alitas, papas, ensalada, salsa a elección</td><td>$5,75</td></tr>
+                <tr><td>Alitas (8 unidades)</td><td>alitas, papas, ensalada, salsa a elección</td><td>$7,50</td></tr>
+                <tr><td>Alitas (10 unidades)</td><td>alitas, papas, ensalada, salsa a elección</td><td>$9,50</td></tr>
+                <tr><td>Alitas (12 unidades)</td><td>alitas, papas, ensalada, salsa a elección</td><td>$11,50</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="py-5" id="galeria">
+      <div class="container py-lg-4">
+        <h2 class="display-6 fw-bold text-center mb-5">Galería</h2>
+        <div class="row g-3">
+          <div class="col-6 col-lg-3">
+            <div class="ratio ratio-1x1 border border-2 border-dark-subtle rounded-4 overflow-hidden">
+              <img src="img/_MG_4889.jpg" class="w-100 h-100 object-fit-cover" alt="megainge">
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="ratio ratio-1x1 border border-2 border-dark-subtle rounded-4 overflow-hidden">
+              <img src="img/hamburguesa_con_tocino.png" class="w-100 h-100 object-fit-cover" alt="hamburguesa_normal">
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="ratio ratio-1x1 border border-2 border-dark-subtle rounded-4 overflow-hidden">
+              <img src="img/hamburguesa1.jpg" class="w-100 h-100 object-fit-cover" alt="hamburguesa_con_tocino">
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="ratio ratio-1x1 border border-2 border-dark-subtle rounded-4 overflow-hidden">
+              <img src="img/_MG_4981.jpg" class="w-100 h-100 object-fit-cover" alt="hamburguesa_con_piña">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ubicación -->
+<section class="py-5 bg-warning-subtle" id="multimedia">
+  <div class="container py-lg-4">
+    <div class="row g-5 align-items-center justify-content-center">
+      <div class="col-lg-12 text-center" id="ubicacion">
+        <h2 class="h3 fw-bold mb-3">Dónde estamos</h2>
+        
+        <!-- Contenedor responsive para el mapa -->
+        <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-sm mb-3">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d115.17805093322607!2d-78.69584018823215!3d-0.9572325288970585!2m2!1f0!2f2.1573381721648497!3m2!1i1024!2i768!4f51.894577758113584!3m3!1m2!1s0x91d48b28b4cf76b3%3A0x6d450359cdcc520d!2sInge%20papas!5e1!3m2!1ses-419!2sec!4v1793143665634!5m2!1ses-419!2sec"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+        <!-- Enlace a Google Maps -->
+        <a class="btn btn-dark rounded-pill mt-3" href="https://maps.app.goo.gl/Rrf8jBgTksqwvaMdA" target="_blank" rel="noopener">Abrir en Google Maps</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contacto -->
+    <section class="py-5 bg-dark text-white" id="contacto">
+      <div class="container py-lg-4">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <h2 class="display-6 fw-bold mb-3">Haz tu pedido</h2>
+            <p class="text-white-50">Escríbenos para pedir, preguntar por promociones o ver el menú del día.</p>
+            <!-- Cambia el número (con código de país, sin + ni espacios) -->
+            <a class="btn btn-warning fw-bold rounded-pill px-4 mb-4" href="https://wa.me/593963493377" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+            <p class="mb-2"><strong>Teléfono:</strong> <a class="link-warning" href="tel:+593963493377">096 349 3377</a></p>
+            <p class="mb-2"><strong>Correo:</strong> <a class="link-warning" href="mailto:igorandrefraga@gmail.com">igorandrefraga@gmail.com</a></p>
+            <p class="mb-0"><strong>Dirección:</strong> García Moreno, diagonal al torreón. Junto al parque central</p>
+          </div>
+          <div class="col-lg-7">
+            <form class="bg-white text-dark rounded-4 p-4 p-md-5 shadow" action="mailto:tu-correo@ejemplo.com" method="post" enctype="text/plain">
+              <h3 class="h4 fw-bold mb-4">Envíanos un mensaje</h3>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="nombre" class="form-label">Nombre completo</label>
+                  <input type="text" class="form-control" id="nombre" name="Nombre" autocomplete="name" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="telefono" class="form-label">Teléfono</label>
+                  <input type="tel" class="form-control" id="telefono" name="Telefono" autocomplete="tel">
+                </div>
+                <div class="col-12">
+                  <label for="motivo" class="form-label">¿Qué necesitas?</label>
+                  <select class="form-select" id="motivo" name="Motivo">
+                    <option>Hacer un pedido</option>
+                    <option>Consultar el menú</option>
+                    <option>Consultar promociones</option>
+                    <option>Otra consulta</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="mensaje" name="Mensaje" rows="4" required></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-warning fw-bold rounded-pill w-100 py-2">Enviar mensaje</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-black text-white-50 py-4 border-top border-warning border-3">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+      <span class="fw-bold text-white fs-5">Las Inge <span class="text-warning">Papas</span></span>
+      <div class="d-flex gap-3">
+        <a class="link-warning link-underline-opacity-0" href="#menu">Menú</a>
+        <a class="link-warning link-underline-opacity-0" href="#inicio">Volver arriba</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
